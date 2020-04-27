@@ -31,7 +31,6 @@ class user_login(unittest.TestCase):
         self.logger.debug(
             "<------------------------------------------------------------------------------------------------------->")
         self.login_Operation = loginOperation.login_operation(self.driver,self.logger)
-
     @ddt.data(*normal_user.next())
     def test_normal_account_login(self,data):
         try:
