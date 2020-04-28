@@ -2,7 +2,7 @@ __author__ = "starry"
 
 from PO import BaseAction
 from selenium.webdriver.common.by import By
-
+from utility import Screen
 class workSpace(BaseAction.Base):
     upload_css = (By.CSS_SELECTOR, "img[uib-tooltip='Upload File to WorkSpace']")
 
@@ -13,7 +13,8 @@ class workSpace(BaseAction.Base):
             self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
 

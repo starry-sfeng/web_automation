@@ -5,12 +5,14 @@ from operation import loginOperation
 from info import userInfo,Logger
 from PO import homePage,view_fileInfo_page,file_menu_page,upload_file_page,ready_file_page,upload_result_page,file_list_page
 from time import sleep
+from utility import Screen
 
 class myvault_operation(object):
     def __init__(self,web_driver,log):
         self.driver =  web_driver
         self.log = log
         self.user_info = userInfo.user()
+        self.screen = Screen.screen(self.driver,self.log)
         self.user_login = loginOperation.login_operation(self.driver,self.log)
         self.home = homePage.home(self.driver,self.log)
         self.myvault = myvalutPage.myvalut(self.driver,self.log)
@@ -61,18 +63,7 @@ class myvault_operation(object):
 
         self.upload_file.click_Upload_share_File_button()
 
-        file_name1 = self.upload_result.get_protect_file_name()
-        sleep(0.5)
-        self.upload_result.click_ok_button()
-        sleep(1)
-        file_name2 = self.file_list.get_first_fileName_list()
-        if file_name1 == file_name2:
-            # print("file protect and upload success")
-            self.log.debug("file protect and upload success")
-        else:
-            # print("file protect fail")
-            self.log.debug("file protect fail")
-            assert False
+        self.assert_protect()
         sleep(0.5)
 
         self.file_menu.click_frist_file_menu(0)
@@ -86,5 +77,18 @@ class myvault_operation(object):
         # print("end")
         self.log.debug("---------- test end ----------")
         
-     
+    def assert_protect(self):
+        file_name1 = self.upload_result.get_protect_file_name()
+        sleep(0.5)
+        self.upload_result.click_ok_button()
+        sleep(1)
+        file_name2 = self.file_list.get_first_fileName_list()
+        if file_name1 == file_name2:
+            # print("file protect and upload success")
+            self.log.debug("file protect and upload success")
+        else:
+            # print("file protect fail")
+            self.log.debug("file protect fail")
+            self.screen.getScreentHot("error screen")
+            assert False
             

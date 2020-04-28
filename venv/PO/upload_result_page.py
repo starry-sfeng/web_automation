@@ -3,7 +3,7 @@ __author__ = "starry"
 from PO import BaseAction
 from selenium.webdriver.common.by import By
 from time import sleep
-
+from utility import Screen
 class upload_result(BaseAction.Base):
     protect_file_name_css = (By.CSS_SELECTOR, "span[class^='rms']>b[class= 'ng-binding']")
     protect_file_name_css1 = ["css", "span[class^='rms']>b[class= 'ng-binding']"]
@@ -20,7 +20,8 @@ class upload_result(BaseAction.Base):
             return protect_file_name
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def workSpace_get_protect_file_name(self):
@@ -32,7 +33,8 @@ class upload_result(BaseAction.Base):
             return protect_file_name
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def click_ok_button(self):
@@ -41,5 +43,6 @@ class upload_result(BaseAction.Base):
             self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)

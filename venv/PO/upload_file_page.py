@@ -2,8 +2,10 @@ __author__ = "starry"
 
 from PO import BaseAction
 from selenium.webdriver.common.by import By
-
+from utility import Screen
 class upload_file(BaseAction.Base):
+    def __init__(self):
+        self.screen = Screen.screen(self.driver,self.log)
     #file_rights_css = ['css', 'div[class=toggle-directive]']
     # file rights button
     myvault_file_rights_css = ['css', "div[ng-show*='&']>div>div>div>div>div[class=toggle-directive]"]
@@ -26,7 +28,8 @@ class upload_file(BaseAction.Base):
                 self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen.jpg")
+            # self.getScreentHot("error screen.jpg")
+            self.screen.getScreentHot("error screen.jpg")
             self.log.debug(e)
 
 
@@ -42,7 +45,8 @@ class upload_file(BaseAction.Base):
                 self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen.jpg")
+            # self.getScreentHot("error screen.jpg")
+            self.screen.getScreentHot("error screen.jpg")
             self.log.debug(e)
 
 
@@ -57,7 +61,8 @@ class upload_file(BaseAction.Base):
                 self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen.jpg")
+            # self.getScreentHot("error screen.jpg")
+            self.screen.getScreentHot("error screen.jpg")
             self.log.debug(e)
 
 
@@ -72,7 +77,8 @@ class upload_file(BaseAction.Base):
                 self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen.jpg")
+            # self.getScreentHot("error screen.jpg")
+            self.screen.getScreentHot("error screen.jpg")
             self.log.debug(e)
 
 
@@ -87,7 +93,8 @@ class upload_file(BaseAction.Base):
                 self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen.jpg")
+            # self.getScreentHot("error screen.jpg")
+            self.screen.getScreentHot("error screen.jpg")
             self.log.debug(e)
 
 
@@ -107,7 +114,8 @@ class upload_file(BaseAction.Base):
             self.send(elem, "john.tyler@qapf1.qalab01.nextlabs.com")
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
 
@@ -118,7 +126,8 @@ class upload_file(BaseAction.Base):
             self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
 
@@ -129,7 +138,8 @@ class upload_file(BaseAction.Base):
             self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
 

@@ -2,9 +2,13 @@
 __author__ = "Starry_feng"
 from PO import BaseAction
 from selenium.webdriver.common.by import By
+from utility import Screen
 
 class home(BaseAction.Base):
-    
+
+    def __init__(self):
+        self.screen = Screen.screen(self.driver,self.log)
+
     myVault_xpath= (By.XPATH,"//div[@id='myvault-btn']/div/div[2]/button")
     user_icon_css = (By.CSS_SELECTOR,"button[class='btn dropdown-toggle']")
     logout_css = (By.CSS_SELECTOR,"a[data-ng-click='doLogout()']")
@@ -19,7 +23,8 @@ class home(BaseAction.Base):
             elem = self.find_Element(*self.myVault_xpath)
             self.click(elem)
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def click_workspace(self):
@@ -29,7 +34,8 @@ class home(BaseAction.Base):
             elem = self.find_Element(*self.workspace_css)
             self.click(elem)
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def click_user_icon(self):
@@ -37,7 +43,8 @@ class home(BaseAction.Base):
             elem = self.find_Element(*self.user_icon_css)
             self.click(elem)
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def click_logout(self):
@@ -45,7 +52,8 @@ class home(BaseAction.Base):
             elem = self.find_Element(*self.logout_css)
             self.click(elem)
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def welcome(self):
@@ -54,9 +62,11 @@ class home(BaseAction.Base):
             return  self.getText(elem)
         except UnboundLocalError as e:
             self.log.debug(e)
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             assert False
         except Exception as e:
             self.log.debug(e)
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             assert False

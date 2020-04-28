@@ -5,8 +5,10 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from info import Logger
 import os
-
+from utility import Screen
 class ready_file(BaseAction.Base):
+    def __init__(self):
+        self.screen = Screen.screen(self.driver,self.log)
     browers_css = (By.CSS_SELECTOR, "a[ng-model= 'files']")
     proceed_css = (By.CSS_SELECTOR, "button[data-ng-click*=proceed]")
 
@@ -25,7 +27,8 @@ class ready_file(BaseAction.Base):
                 assert False
 
         except Exception as e:
-            self.getScreentHot("error screen.jpg")
+            # self.getScreentHot("error screen.jpg")
+            self.screen.getScreentHot("error screen.jpg")
             self.log.debug(e)
 
     def click_proceed_button(self):
@@ -34,5 +37,6 @@ class ready_file(BaseAction.Base):
             self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)

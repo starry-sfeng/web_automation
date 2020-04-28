@@ -3,8 +3,11 @@ __author__ = "starry"
 from PO import BaseAction
 from selenium.webdriver.common.by import By
 from time import sleep
+from utility import Screen
 
 class file_list(BaseAction.Base):
+    def __init__(self):
+        self.screen = Screen.screen(self.driver,self.log)
     first_fileName_list_xpath = (By.XPATH, "//li[@class='list-group-item rms-file-list ng-scope'][1]/div/div/div/div/a")
     first_fileName_list_xpath1 = ["xpath", "//li[@class='list-group-item rms-file-list ng-scope'][1]/div/div/div/div/a"]
 
@@ -18,5 +21,6 @@ class file_list(BaseAction.Base):
             return file_Name
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)

@@ -6,13 +6,13 @@ import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
+from utility import Screen
 class Base(object):
 
     def __init__(self,web_driver,log):
-       # self.launchApp= launch_webdriver.launch_app()
-       # self.driver = self.launchApp.launch()
         self.driver= web_driver
         self.log = log
+        self.screen = Screen.screen(self.driver,self.log)
 
     def implicit_wait(self, element,time,index):
         try:
@@ -162,22 +162,22 @@ class Base(object):
             self.log.debug(e)
             assert False
 
-    def getScreentHot(self,file_name):
-        try:
-            folder = "../testCase/scrren/"
-            path = folder + file_name+ str(time.time()) +".png"
-            log = "screen path is: "+ path
-            self.log.debug(log)
-            if os.path.exists(folder):
-                self.driver.get_screenshot_as_file(path)
-
-            else:
-                os.makedirs(folder)
-                self.driver.get_screenshot_as_file(path)
-
-        except Exception as e:
-            self.log.debug(e)
-            assert False
+    # def getScreentHot(self,file_name):
+    #     try:
+    #         folder = "../testCase/scrren/"
+    #         path = folder + file_name+ str(time.time()) +".png"
+    #         log = "screen path is: "+ path
+    #         self.log.debug(log)
+    #         if os.path.exists(folder):
+    #             self.driver.get_screenshot_as_file(path)
+    #
+    #         else:
+    #             os.makedirs(folder)
+    #             self.driver.get_screenshot_as_file(path)
+    #
+    #     except Exception as e:
+    #         self.log.debug(e)
+    #         assert False
 
     def maximizeWindow(self):
         try:
@@ -217,7 +217,7 @@ class Base(object):
         if  source_title.lower() == target_title.lower():
             return True
         else:
-            self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             return False
             assert False
 

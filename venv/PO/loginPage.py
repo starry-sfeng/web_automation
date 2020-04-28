@@ -2,8 +2,10 @@
 __author__ = "Starry_feng"
 from PO import BaseAction
 from selenium.webdriver.common.by import By
-
+from utility import Screen
 class login(BaseAction.Base):
+    def __init__(self):
+        self.screen = Screen.screen(self.driver,self.log)
 
     user_name_id = (By.ID, "username")
     user_ped_id = (By.ID,"password")
@@ -24,7 +26,8 @@ class login(BaseAction.Base):
             self.clear(elem)
             self.send(elem,username)
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def inputPassword(self,password):
@@ -35,7 +38,8 @@ class login(BaseAction.Base):
             self.send(elem, password)
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
     def click_login_button(self):
@@ -44,7 +48,8 @@ class login(BaseAction.Base):
             self.click(elem)
 
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
 

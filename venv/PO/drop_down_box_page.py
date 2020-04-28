@@ -3,9 +3,10 @@ __author__ = "starry"
 from PO import BaseAction
 from time import sleep
 from selenium.webdriver.common.by import By
-
+from utility import Screen
 class drop_down_box(BaseAction.Base):
-    #drop_down_css = (By.CSS_SELECTOR,"select[class='ng-pristine ng-untouched ng-valid']")
+    def __init__(self):
+        self.screen = Screen.screen(self.driver,self.log)
     drop_down_css = ["css","select[class='ng-pristine ng-untouched ng-valid']"]
     Last_Modified = "//option[@label = 'Last Modified']"
     Oldest_First = "//option[@label = 'Oldest First']"
@@ -43,7 +44,8 @@ class drop_down_box(BaseAction.Base):
                 assert False
             self.click(elem)
         except Exception as e:
-            self.getScreentHot("error screen")
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
             self.log.debug(e)
 
 
