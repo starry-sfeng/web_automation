@@ -13,6 +13,7 @@ class Myvalut_Share(unittest.TestCase):
     def setUp(self) -> None:
         self.launch = launch_webdriver.launch_app()
         self.driver = self.launch.launch()
+
         self.log = Logger.Logger()
         self.logger = self.log.logger
         self.logger.debug(
@@ -42,9 +43,19 @@ class Myvalut_Share(unittest.TestCase):
             print(e)
             assert False
 
+    @unittest.skip(u"暂不执行")
     def test_share(self):
         try:
             self.myvault.share()
+
+        except Exception as e:
+            print(e)
+            assert False
+
+    def test_protect(self):
+
+        try:
+            self.myvault.protect()
 
         except Exception as e:
             print(e)

@@ -1,620 +1,95 @@
-2020-04-23 15:28:57,818 - C:/web_automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:28:57,819 - C:/web_automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:28:57,820 - C:/web_automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:28:57,871 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:28:57,871 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:28:57,872 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-23 15:29:02,499 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-23 15:29:02,499 - C:/web_automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:02,499 - C:/web_automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:29:02,500 - C:/web_automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:02,500 - C:/web_automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:29:02,500 - C:/web_automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:29:02,501 - C:/web_automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:29:14,083 - C:/web_automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:14,083 - C:/web_automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:29:14,083 - C:/web_automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:14,141 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:29:14,141 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:29:14,142 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
-2020-04-23 15:29:16,154 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
-2020-04-23 15:29:16,154 - C:\web_automation\venv\PO\BaseAction.py[line:170] - DEBUG: screen path is: ../testCase/scrren/error screen1587626956.154417.png
-2020-04-23 15:29:16,580 - C:\web_automation\venv\operation\loginOperation.py[line:70] - DEBUG: login page refresh fail
-2020-04-23 15:29:16,580 - C:\web_automation\venv\operation\loginOperation.py[line:73] - DEBUG: normal account login fail
-2020-04-23 15:29:16,580 - C:\web_automation\venv\operation\loginOperation.py[line:74] - DEBUG: 
-2020-04-23 15:29:16,580 - C:\web_automation\venv\operation\loginOperation.py[line:28] - DEBUG: normal account login fail
-2020-04-23 15:29:16,580 - C:\web_automation\venv\operation\loginOperation.py[line:29] - DEBUG: 
-2020-04-23 15:29:16,580 - C:/web_automation/venv/testCase/test_login.py[line:55] - DEBUG: 
-2020-04-23 15:29:16,580 - C:/web_automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:16,580 - C:/web_automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:29:16,580 - C:/web_automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:16,580 - C:/web_automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:29:16,580 - C:/web_automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:29:16,580 - C:/web_automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:29:27,817 - C:/web_automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:27,817 - C:/web_automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:29:27,817 - C:/web_automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:27,854 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:29:27,854 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:29:27,854 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry2.feng@nextlabs.com password: 123blue!
-2020-04-23 15:29:29,659 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: The account does not exist.
-2020-04-23 15:29:29,661 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-23 15:29:29,661 - C:/web_automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:29,662 - C:/web_automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:29:29,662 - C:/web_automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:29,662 - C:/web_automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:29:29,663 - C:/web_automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:29:29,663 - C:/web_automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:29:39,985 - C:/web_automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:39,985 - C:/web_automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:29:39,986 - C:/web_automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:39,986 - C:/web_automation/venv/testCase/test_login.py[line:50] - DEBUG: skip this case
-2020-04-23 15:29:39,986 - C:/web_automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:39,987 - C:/web_automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:29:39,987 - C:/web_automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:39,988 - C:/web_automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:29:39,988 - C:/web_automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:29:39,988 - C:/web_automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:29:52,694 - C:/web_automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:52,694 - C:/web_automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:29:52,694 - C:/web_automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:52,742 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:29:52,743 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:29:52,743 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username:  password: 124blue!
-2020-04-23 15:29:54,443 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: Please enter the Email Address.
-2020-04-23 15:29:54,444 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-23 15:29:54,444 - C:/web_automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:54,444 - C:/web_automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:29:54,445 - C:/web_automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:29:54,445 - C:/web_automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:29:54,445 - C:/web_automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:29:54,446 - C:/web_automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:34:28,025 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:19] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:34:28,026 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:21] - DEBUG: <---------------------------------------------test myvault_share_file----------------------------------->
-2020-04-23 15:34:28,026 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:23] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:34:28,034 - C:\web_automation\venv\operation\myvaultOperation.py[line:42] - DEBUG: ---------- test share file in myspace ----------
-2020-04-23 15:34:28,036 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:34:28,036 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-23 15:34:32,922 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-23 15:34:33,423 - C:\web_automation\venv\PO\homePage.py[line:18] - DEBUG: ------welcome to myvault------
-2020-04-23 15:34:37,951 - C:\web_automation\venv\PO\ready_file_page.py[line:18] - DEBUG: ready share file
-2020-04-23 15:34:37,951 - C:\web_automation\venv\PO\ready_file_page.py[line:19] - DEBUG: file is loading
-2020-04-23 15:34:40,789 - C:\web_automation\venv\PO\ready_file_page.py[line:22] - DEBUG: file loading success
-2020-04-23 15:34:43,639 - C:\web_automation\venv\PO\upload_file_page.py[line:103] - DEBUG: input user email
-2020-04-23 15:34:45,922 - C:\web_automation\venv\PO\upload_file_page.py[line:66] - DEBUG: give file edit right
-2020-04-23 15:34:46,189 - C:\web_automation\venv\PO\upload_file_page.py[line:20] - DEBUG: give file print right
-2020-04-23 15:34:46,419 - C:\web_automation\venv\PO\upload_file_page.py[line:36] - DEBUG: give file reshare right
-2020-04-23 15:34:46,625 - C:\web_automation\venv\PO\upload_file_page.py[line:51] - DEBUG: give file save as right
-2020-04-23 15:34:46,871 - C:\web_automation\venv\PO\upload_file_page.py[line:81] - DEBUG: give file watermark right
-2020-04-23 15:34:47,690 - C:\web_automation\venv\PO\upload_file_page.py[line:116] - DEBUG: upload & share file
-2020-04-23 15:34:47,932 - C:\web_automation\venv\PO\upload_result_page.py[line:16] - DEBUG: get create file name
-2020-04-23 15:34:51,361 - C:\web_automation\venv\operation\myvaultOperation.py[line:71] - DEBUG: file protect and upload success
-2020-04-23 15:34:51,876 - C:\web_automation\venv\PO\file_menu_page.py[line:19] - DEBUG: click file menu
-2020-04-23 15:34:52,234 - C:\web_automation\venv\PO\file_menu_page.py[line:19] - DEBUG: click file menu
-2020-04-23 15:34:52,930 - C:\web_automation\venv\PO\file_menu_page.py[line:28] - DEBUG: click view file info icon
-2020-04-23 15:34:54,227 - C:\web_automation\venv\operation\myvaultOperation.py[line:87] - DEBUG: ---------- test end ----------
-2020-04-23 15:34:57,011 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:57] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:34:57,011 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:59] - DEBUG: <----------------------------------------------test end------------------------------------------------->
-2020-04-23 15:34:57,011 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:34:57,011 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:62] - DEBUG: 
-
-2020-04-23 15:34:57,011 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:63] - DEBUG: 
-
-2020-04-23 15:34:57,011 - C:/web_automation/venv/testCase/test_myvault_share_file.py[line:64] - DEBUG: 
-
-2020-04-23 15:36:49,611 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:18] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:36:49,612 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:20] - DEBUG: <----------------------------------------------test drop_down_box--------------------------------------->
-2020-04-23 15:36:49,612 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:22] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:36:49,618 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:36:49,618 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-23 15:36:54,177 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-23 15:36:54,678 - C:\web_automation\venv\PO\homePage.py[line:18] - DEBUG: ------welcome to myvault------
-2020-04-23 15:37:00,382 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:48] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:00,382 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:50] - DEBUG: <----------------------------------------------test end------------------------------------------------->
-2020-04-23 15:37:00,382 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:52] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:00,382 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:53] - DEBUG: 
-
-2020-04-23 15:37:00,382 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:54] - DEBUG: 
-
-2020-04-23 15:37:00,382 - C:\web_automation\venv\testCase\test_drop_down_box.py[line:55] - DEBUG: 
-
-2020-04-23 15:37:07,580 - C:\web_automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:07,580 - C:\web_automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:37:07,580 - C:\web_automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:07,617 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:37:07,618 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:37:07,618 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-23 15:37:11,724 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-23 15:37:11,724 - C:\web_automation\venv\testCase\test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:11,725 - C:\web_automation\venv\testCase\test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:37:11,725 - C:\web_automation\venv\testCase\test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:11,725 - C:\web_automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:37:11,726 - C:\web_automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:37:11,726 - C:\web_automation\venv\testCase\test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:37:23,566 - C:\web_automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:23,566 - C:\web_automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:37:23,566 - C:\web_automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:23,608 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:37:23,608 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:37:23,609 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
-2020-04-23 15:37:25,672 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
-2020-04-23 15:37:25,672 - C:\web_automation\venv\PO\BaseAction.py[line:170] - DEBUG: screen path is: ../testCase/scrren/error screen1587627445.6727111.png
-2020-04-23 15:37:26,115 - C:\web_automation\venv\operation\loginOperation.py[line:70] - DEBUG: login page refresh fail
-2020-04-23 15:37:26,115 - C:\web_automation\venv\operation\loginOperation.py[line:73] - DEBUG: normal account login fail
-2020-04-23 15:37:26,115 - C:\web_automation\venv\operation\loginOperation.py[line:74] - DEBUG: 
-2020-04-23 15:37:26,116 - C:\web_automation\venv\operation\loginOperation.py[line:28] - DEBUG: normal account login fail
-2020-04-23 15:37:26,116 - C:\web_automation\venv\operation\loginOperation.py[line:29] - DEBUG: 
-2020-04-23 15:37:26,116 - C:\web_automation\venv\testCase\test_login.py[line:55] - DEBUG: 
-2020-04-23 15:37:26,116 - C:\web_automation\venv\testCase\test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:26,117 - C:\web_automation\venv\testCase\test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:37:26,117 - C:\web_automation\venv\testCase\test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:26,117 - C:\web_automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:37:26,117 - C:\web_automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:37:26,117 - C:\web_automation\venv\testCase\test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:37:37,994 - C:\web_automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:37,994 - C:\web_automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:37:37,995 - C:\web_automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:38,034 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:37:38,035 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:37:38,035 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry2.feng@nextlabs.com password: 123blue!
-2020-04-23 15:37:39,792 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: The account does not exist.
-2020-04-23 15:37:39,792 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-23 15:37:39,792 - C:\web_automation\venv\testCase\test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:39,792 - C:\web_automation\venv\testCase\test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:37:39,793 - C:\web_automation\venv\testCase\test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:39,793 - C:\web_automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:37:39,793 - C:\web_automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:37:39,793 - C:\web_automation\venv\testCase\test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:37:49,824 - C:\web_automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:49,824 - C:\web_automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:37:49,824 - C:\web_automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:49,826 - C:\web_automation\venv\testCase\test_login.py[line:50] - DEBUG: skip this case
-2020-04-23 15:37:49,826 - C:\web_automation\venv\testCase\test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:49,826 - C:\web_automation\venv\testCase\test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:37:49,827 - C:\web_automation\venv\testCase\test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:37:49,827 - C:\web_automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:37:49,827 - C:\web_automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:37:49,827 - C:\web_automation\venv\testCase\test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:38:00,293 - C:\web_automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:00,293 - C:\web_automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-23 15:38:00,293 - C:\web_automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:00,343 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-23 15:38:00,344 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:38:00,344 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username:  password: 124blue!
-2020-04-23 15:38:01,982 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: Please enter the Email Address.
-2020-04-23 15:38:01,982 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-23 15:38:01,983 - C:\web_automation\venv\testCase\test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:01,983 - C:\web_automation\venv\testCase\test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-23 15:38:01,983 - C:\web_automation\venv\testCase\test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:01,983 - C:\web_automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-23 15:38:01,983 - C:\web_automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-23 15:38:01,984 - C:\web_automation\venv\testCase\test_login.py[line:68] - DEBUG: 
-
-2020-04-23 15:38:11,914 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:19] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:11,916 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:21] - DEBUG: <---------------------------------------------test myvault_share_file----------------------------------->
-2020-04-23 15:38:11,916 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:23] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:11,923 - C:\web_automation\venv\operation\myvaultOperation.py[line:42] - DEBUG: ---------- test share file in myspace ----------
-2020-04-23 15:38:11,923 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:38:11,923 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-23 15:38:16,140 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-23 15:38:16,648 - C:\web_automation\venv\PO\homePage.py[line:18] - DEBUG: ------welcome to myvault------
-2020-04-23 15:38:21,791 - C:\web_automation\venv\PO\ready_file_page.py[line:18] - DEBUG: ready share file
-2020-04-23 15:38:21,791 - C:\web_automation\venv\PO\ready_file_page.py[line:19] - DEBUG: file is loading
-2020-04-23 15:38:24,495 - C:\web_automation\venv\PO\ready_file_page.py[line:22] - DEBUG: file loading success
-2020-04-23 15:38:27,293 - C:\web_automation\venv\PO\upload_file_page.py[line:103] - DEBUG: input user email
-2020-04-23 15:38:29,529 - C:\web_automation\venv\PO\upload_file_page.py[line:66] - DEBUG: give file edit right
-2020-04-23 15:38:29,812 - C:\web_automation\venv\PO\upload_file_page.py[line:20] - DEBUG: give file print right
-2020-04-23 15:38:30,041 - C:\web_automation\venv\PO\upload_file_page.py[line:36] - DEBUG: give file reshare right
-2020-04-23 15:38:30,260 - C:\web_automation\venv\PO\upload_file_page.py[line:51] - DEBUG: give file save as right
-2020-04-23 15:38:30,534 - C:\web_automation\venv\PO\upload_file_page.py[line:81] - DEBUG: give file watermark right
-2020-04-23 15:38:31,499 - C:\web_automation\venv\PO\upload_file_page.py[line:116] - DEBUG: upload & share file
-2020-04-23 15:38:31,770 - C:\web_automation\venv\PO\upload_result_page.py[line:16] - DEBUG: get create file name
-2020-04-23 15:38:35,218 - C:\web_automation\venv\operation\myvaultOperation.py[line:71] - DEBUG: file protect and upload success
-2020-04-23 15:38:35,718 - C:\web_automation\venv\PO\file_menu_page.py[line:19] - DEBUG: click file menu
-2020-04-23 15:38:36,048 - C:\web_automation\venv\PO\file_menu_page.py[line:19] - DEBUG: click file menu
-2020-04-23 15:38:36,735 - C:\web_automation\venv\PO\file_menu_page.py[line:28] - DEBUG: click view file info icon
-2020-04-23 15:38:37,955 - C:\web_automation\venv\operation\myvaultOperation.py[line:87] - DEBUG: ---------- test end ----------
-2020-04-23 15:38:40,744 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:57] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:40,744 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:59] - DEBUG: <----------------------------------------------test end------------------------------------------------->
-2020-04-23 15:38:40,744 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:40,744 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:62] - DEBUG: 
-
-2020-04-23 15:38:40,744 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:63] - DEBUG: 
-
-2020-04-23 15:38:40,744 - C:\web_automation\venv\testCase\test_myvault_share_file.py[line:64] - DEBUG: 
-
-2020-04-23 15:38:48,443 - C:\web_automation\venv\testCase\test_search.py[line:17] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:48,443 - C:\web_automation\venv\testCase\test_search.py[line:18] - DEBUG: <----------------------------------------------test search file----------------------------------------->
-2020-04-23 15:38:48,444 - C:\web_automation\venv\testCase\test_search.py[line:19] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:38:48,449 - C:\web_automation\venv\operation\searchOperation.py[line:22] - DEBUG: ---------- test search file in workspace ----------
-2020-04-23 15:38:48,449 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-23 15:38:48,449 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-23 15:38:52,649 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-23 15:38:53,151 - C:\web_automation\venv\PO\homePage.py[line:28] - DEBUG: ------welcome to worksapce------
-2020-04-23 15:38:58,046 - C:\web_automation\venv\operation\searchOperation.py[line:30] - DEBUG: ---------- test end ----------
-2020-04-23 15:39:02,763 - C:\web_automation\venv\testCase\test_search.py[line:45] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:39:02,763 - C:\web_automation\venv\testCase\test_search.py[line:46] - DEBUG: <----------------------------------------------test end------------------------------------------------->
-2020-04-23 15:39:02,763 - C:\web_automation\venv\testCase\test_search.py[line:47] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-23 15:39:02,763 - C:\web_automation\venv\testCase\test_search.py[line:48] - DEBUG: 
-
-2020-04-23 15:39:02,763 - C:\web_automation\venv\testCase\test_search.py[line:49] - DEBUG: 
-
-2020-04-23 15:39:02,763 - C:\web_automation\venv\testCase\test_search.py[line:50] - DEBUG: 
-
-2020-04-27 11:13:03,076 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:03,077 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-27 11:13:03,077 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:03,120 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-27 11:13:03,120 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-27 11:13:03,120 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-27 11:13:08,379 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-27 11:13:08,379 - C:/skydrm UI automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:08,380 - C:/skydrm UI automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-27 11:13:08,380 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:08,380 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-27 11:13:08,380 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-27 11:13:08,381 - C:/skydrm UI automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-27 11:13:18,793 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:18,794 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-27 11:13:18,794 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:18,825 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-27 11:13:18,825 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-27 11:13:18,825 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
-2020-04-27 11:13:20,991 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
-2020-04-27 11:13:20,991 - C:\web_automation\venv\PO\BaseAction.py[line:170] - DEBUG: screen path is: ../testCase/scrren/error screen1587957200.9911885.png
-2020-04-27 11:13:21,570 - C:\web_automation\venv\operation\loginOperation.py[line:70] - DEBUG: login page refresh fail
-2020-04-27 11:13:21,570 - C:\web_automation\venv\operation\loginOperation.py[line:73] - DEBUG: normal account login fail
-2020-04-27 11:13:21,570 - C:\web_automation\venv\operation\loginOperation.py[line:74] - DEBUG: 
-2020-04-27 11:13:21,570 - C:\web_automation\venv\operation\loginOperation.py[line:28] - DEBUG: normal account login fail
-2020-04-27 11:13:21,570 - C:\web_automation\venv\operation\loginOperation.py[line:29] - DEBUG: 
-2020-04-27 11:13:21,570 - C:/skydrm UI automation/venv/testCase/test_login.py[line:55] - DEBUG: 
-2020-04-27 11:13:21,570 - C:/skydrm UI automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:21,570 - C:/skydrm UI automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-27 11:13:21,570 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:21,570 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-27 11:13:21,570 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-27 11:13:21,570 - C:/skydrm UI automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-27 11:13:35,199 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:35,199 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-27 11:13:35,199 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:35,246 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-27 11:13:35,246 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-27 11:13:35,246 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry2.feng@nextlabs.com password: 123blue!
-2020-04-27 11:13:37,476 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: The account does not exist.
-2020-04-27 11:13:37,476 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-27 11:13:37,476 - C:/skydrm UI automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:37,476 - C:/skydrm UI automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-27 11:13:37,476 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:37,476 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-27 11:13:37,476 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-27 11:13:37,476 - C:/skydrm UI automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-27 11:13:48,005 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:48,006 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-27 11:13:48,008 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:48,010 - C:/skydrm UI automation/venv/testCase/test_login.py[line:50] - DEBUG: skip this case
-2020-04-27 11:13:48,010 - C:/skydrm UI automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:48,011 - C:/skydrm UI automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-27 11:13:48,011 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:48,011 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-27 11:13:48,012 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-27 11:13:48,012 - C:/skydrm UI automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-27 11:13:57,887 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:57,888 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-27 11:13:57,888 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:57,929 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-27 11:13:57,930 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-27 11:13:57,930 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username:  password: 124blue!
-2020-04-27 11:13:59,552 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: Please enter the Email Address.
-2020-04-27 11:13:59,552 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-27 11:13:59,552 - C:/skydrm UI automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:59,552 - C:/skydrm UI automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-27 11:13:59,552 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 11:13:59,554 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-27 11:13:59,554 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-27 11:13:59,554 - C:/skydrm UI automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-27 13:59:45,496 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 13:59:45,497 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-27 13:59:45,497 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 13:59:45,542 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-27 13:59:45,542 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-27 13:59:45,543 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
-2020-04-27 13:59:47,778 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
-2020-04-27 13:59:47,779 - C:\web_automation\venv\PO\BaseAction.py[line:170] - DEBUG: screen path is: ../testCase/scrren/error screen1587967187.7791996.png
-2020-04-27 13:59:48,409 - C:\web_automation\venv\operation\loginOperation.py[line:70] - DEBUG: login page refresh fail
-2020-04-27 13:59:48,409 - C:\web_automation\venv\operation\loginOperation.py[line:73] - DEBUG: normal account login fail
-2020-04-27 13:59:48,409 - C:\web_automation\venv\operation\loginOperation.py[line:74] - DEBUG: 
-2020-04-27 13:59:48,410 - C:\web_automation\venv\operation\loginOperation.py[line:28] - DEBUG: normal account login fail
-2020-04-27 13:59:48,410 - C:\web_automation\venv\operation\loginOperation.py[line:29] - DEBUG: 
-2020-04-27 13:59:48,410 - C:/skydrm UI automation/venv/testCase/test_login.py[line:55] - DEBUG: 
-2020-04-27 13:59:48,410 - C:/skydrm UI automation/venv/testCase/test_login.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 13:59:48,412 - C:/skydrm UI automation/venv/testCase/test_login.py[line:63] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-27 13:59:48,412 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-27 13:59:48,412 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-27 13:59:48,412 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-27 13:59:48,413 - C:/skydrm UI automation/venv/testCase/test_login.py[line:68] - DEBUG: 
-
-2020-04-28 10:40:57,619 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:40:57,620 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 10:40:57,620 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:40:57,662 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 10:40:57,662 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 10:40:57,662 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-28 10:41:01,784 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-28 10:41:01,785 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:01,785 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 10:41:01,785 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:01,786 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
-
-2020-04-28 10:41:01,786 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-28 10:41:01,786 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-28 10:41:11,749 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:11,749 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 10:41:11,751 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:11,792 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 10:41:11,792 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 10:41:11,792 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
-2020-04-28 10:41:13,575 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
-2020-04-28 10:41:13,575 - C:\web_automation\venv\utility\Screen.py[line:14] - DEBUG: screen path is: ../testCase/scrren/error screen1588041673.5754316.png
-2020-04-28 10:41:14,044 - C:\web_automation\venv\operation\loginOperation.py[line:70] - DEBUG: login page refresh fail
-2020-04-28 10:41:14,044 - C:\web_automation\venv\operation\loginOperation.py[line:73] - DEBUG: normal account login fail
-2020-04-28 10:41:14,044 - C:\web_automation\venv\operation\loginOperation.py[line:74] - DEBUG: 
-2020-04-28 10:41:14,044 - C:\web_automation\venv\operation\loginOperation.py[line:28] - DEBUG: normal account login fail
-2020-04-28 10:41:14,044 - C:\web_automation\venv\operation\loginOperation.py[line:29] - DEBUG: 
-2020-04-28 10:41:14,044 - C:/skydrm UI automation/venv/testCase/test_login.py[line:54] - DEBUG: 
-2020-04-28 10:41:14,044 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:14,044 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 10:41:14,044 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:14,044 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
-
-2020-04-28 10:41:14,044 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-28 10:41:14,044 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-28 10:41:23,700 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:23,700 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 10:41:23,700 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:23,741 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 10:41:23,742 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 10:41:23,742 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry2.feng@nextlabs.com password: 123blue!
-2020-04-28 10:41:25,559 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: The account does not exist.
-2020-04-28 10:41:25,559 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-28 10:41:25,559 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:25,559 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 10:41:25,559 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:25,559 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
-
-2020-04-28 10:41:25,559 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-28 10:41:25,559 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-28 10:41:35,728 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:35,729 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 10:41:35,729 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:35,730 - C:/skydrm UI automation/venv/testCase/test_login.py[line:49] - DEBUG: skip this case
-2020-04-28 10:41:35,730 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:35,731 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 10:41:35,731 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:35,732 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
-
-2020-04-28 10:41:35,732 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-28 10:41:35,732 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-28 10:41:47,976 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:47,977 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 10:41:47,977 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:48,017 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 10:41:48,017 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 10:41:48,019 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username:  password: 124blue!
-2020-04-28 10:41:49,767 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: Please enter the Email Address.
-2020-04-28 10:41:49,767 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-28 10:41:49,767 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:49,768 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 10:41:49,768 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 10:41:49,768 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
-
-2020-04-28 10:41:49,769 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
-
-2020-04-28 10:41:49,769 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
-
-2020-04-28 11:01:11,936 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:18] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:11,937 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:20] - DEBUG: <----------------------------------------------test drop_down_box--------------------------------------->
-2020-04-28 11:01:11,937 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:22] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:11,944 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 11:01:11,944 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-28 11:01:16,111 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-28 11:01:16,621 - C:\web_automation\venv\PO\homePage.py[line:18] - DEBUG: ------welcome to myvault------
-2020-04-28 11:01:22,680 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:48] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:22,680 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:50] - DEBUG: <----------------------------------------------test end------------------------------------------------->
-2020-04-28 11:01:22,680 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:52] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:22,680 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:53] - DEBUG: 
-
-2020-04-28 11:01:22,680 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:54] - DEBUG: 
-
-2020-04-28 11:01:22,680 - C:\skydrm UI automation\venv\testCase\test_drop_down_box.py[line:55] - DEBUG: 
-
-2020-04-28 11:01:29,884 - C:\skydrm UI automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:29,884 - C:\skydrm UI automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 11:01:29,884 - C:\skydrm UI automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:29,926 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 11:01:29,927 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 11:01:29,927 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-28 11:01:33,602 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-28 11:01:33,603 - C:\skydrm UI automation\venv\testCase\test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:33,603 - C:\skydrm UI automation\venv\testCase\test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 11:01:33,603 - C:\skydrm UI automation\venv\testCase\test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:33,603 - C:\skydrm UI automation\venv\testCase\test_login.py[line:65] - DEBUG: 
-
-2020-04-28 11:01:33,604 - C:\skydrm UI automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-28 11:01:33,604 - C:\skydrm UI automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-28 11:01:43,545 - C:\skydrm UI automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:43,546 - C:\skydrm UI automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 11:01:43,547 - C:\skydrm UI automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:43,606 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 11:01:43,606 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 11:01:43,606 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
-2020-04-28 11:01:45,575 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
-2020-04-28 11:01:45,575 - C:\web_automation\venv\utility\Screen.py[line:14] - DEBUG: screen path is: ../testCase/scrren/error screen1588042905.575967.png
-2020-04-28 11:01:46,242 - C:\web_automation\venv\operation\loginOperation.py[line:70] - DEBUG: login page refresh fail
-2020-04-28 11:01:46,243 - C:\web_automation\venv\operation\loginOperation.py[line:73] - DEBUG: normal account login fail
-2020-04-28 11:01:46,243 - C:\web_automation\venv\operation\loginOperation.py[line:74] - DEBUG: 
-2020-04-28 11:01:46,243 - C:\web_automation\venv\operation\loginOperation.py[line:28] - DEBUG: normal account login fail
-2020-04-28 11:01:46,243 - C:\web_automation\venv\operation\loginOperation.py[line:29] - DEBUG: 
-2020-04-28 11:01:46,244 - C:\skydrm UI automation\venv\testCase\test_login.py[line:54] - DEBUG: 
-2020-04-28 11:01:46,244 - C:\skydrm UI automation\venv\testCase\test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:46,244 - C:\skydrm UI automation\venv\testCase\test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 11:01:46,244 - C:\skydrm UI automation\venv\testCase\test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:46,245 - C:\skydrm UI automation\venv\testCase\test_login.py[line:65] - DEBUG: 
-
-2020-04-28 11:01:46,245 - C:\skydrm UI automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-28 11:01:46,245 - C:\skydrm UI automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-28 11:01:58,026 - C:\skydrm UI automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:58,026 - C:\skydrm UI automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 11:01:58,026 - C:\skydrm UI automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:01:58,069 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 11:01:58,069 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 11:01:58,069 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry2.feng@nextlabs.com password: 123blue!
-2020-04-28 11:02:00,108 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: The account does not exist.
-2020-04-28 11:02:00,124 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-28 11:02:00,124 - C:\skydrm UI automation\venv\testCase\test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:00,124 - C:\skydrm UI automation\venv\testCase\test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 11:02:00,124 - C:\skydrm UI automation\venv\testCase\test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:00,124 - C:\skydrm UI automation\venv\testCase\test_login.py[line:65] - DEBUG: 
-
-2020-04-28 11:02:00,124 - C:\skydrm UI automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-28 11:02:00,124 - C:\skydrm UI automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-28 11:02:09,772 - C:\skydrm UI automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:09,772 - C:\skydrm UI automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 11:02:09,773 - C:\skydrm UI automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:09,773 - C:\skydrm UI automation\venv\testCase\test_login.py[line:49] - DEBUG: skip this case
-2020-04-28 11:02:09,773 - C:\skydrm UI automation\venv\testCase\test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:09,774 - C:\skydrm UI automation\venv\testCase\test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 11:02:09,774 - C:\skydrm UI automation\venv\testCase\test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:09,774 - C:\skydrm UI automation\venv\testCase\test_login.py[line:65] - DEBUG: 
-
-2020-04-28 11:02:09,775 - C:\skydrm UI automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-28 11:02:09,775 - C:\skydrm UI automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-28 11:02:19,230 - C:\skydrm UI automation\venv\testCase\test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:19,230 - C:\skydrm UI automation\venv\testCase\test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
-2020-04-28 11:02:19,230 - C:\skydrm UI automation\venv\testCase\test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:19,273 - C:\web_automation\venv\operation\loginOperation.py[line:97] - DEBUG: User Status: Logout
-2020-04-28 11:02:19,274 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 11:02:19,274 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username:  password: 124blue!
-2020-04-28 11:02:20,819 - C:\web_automation\venv\operation\loginOperation.py[line:65] - DEBUG: login prompt msg is: Please enter the Email Address.
-2020-04-28 11:02:20,819 - C:\web_automation\venv\operation\loginOperation.py[line:68] - DEBUG: user login success
-2020-04-28 11:02:20,820 - C:\skydrm UI automation\venv\testCase\test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:20,820 - C:\skydrm UI automation\venv\testCase\test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
-2020-04-28 11:02:20,820 - C:\skydrm UI automation\venv\testCase\test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:20,820 - C:\skydrm UI automation\venv\testCase\test_login.py[line:65] - DEBUG: 
-
-2020-04-28 11:02:20,820 - C:\skydrm UI automation\venv\testCase\test_login.py[line:66] - DEBUG: 
-
-2020-04-28 11:02:20,821 - C:\skydrm UI automation\venv\testCase\test_login.py[line:67] - DEBUG: 
-
-2020-04-28 11:02:31,070 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:19] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:31,070 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:21] - DEBUG: <---------------------------------------------test myvault_share_file----------------------------------->
-2020-04-28 11:02:31,070 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:23] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:02:31,077 - C:\web_automation\venv\operation\myvaultOperation.py[line:43] - DEBUG: ---------- test share file in myspace ----------
-2020-04-28 11:02:31,077 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 11:02:31,077 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-28 11:02:35,723 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-28 11:02:36,228 - C:\web_automation\venv\PO\homePage.py[line:18] - DEBUG: ------welcome to myvault------
-2020-04-28 11:02:41,369 - C:\web_automation\venv\PO\ready_file_page.py[line:18] - DEBUG: ready share file
-2020-04-28 11:02:41,369 - C:\web_automation\venv\PO\ready_file_page.py[line:19] - DEBUG: file is loading
-2020-04-28 11:02:48,607 - C:\web_automation\venv\PO\ready_file_page.py[line:22] - DEBUG: file loading success
-2020-04-28 11:02:51,457 - C:\web_automation\venv\PO\upload_file_page.py[line:103] - DEBUG: input user email
-2020-04-28 11:02:53,739 - C:\web_automation\venv\PO\upload_file_page.py[line:66] - DEBUG: give file edit right
-2020-04-28 11:02:54,053 - C:\web_automation\venv\PO\upload_file_page.py[line:20] - DEBUG: give file print right
-2020-04-28 11:02:54,330 - C:\web_automation\venv\PO\upload_file_page.py[line:36] - DEBUG: give file reshare right
-2020-04-28 11:02:54,591 - C:\web_automation\venv\PO\upload_file_page.py[line:51] - DEBUG: give file save as right
-2020-04-28 11:02:54,807 - C:\web_automation\venv\PO\upload_file_page.py[line:81] - DEBUG: give file watermark right
-2020-04-28 11:02:55,739 - C:\web_automation\venv\PO\upload_file_page.py[line:116] - DEBUG: upload & share file
-2020-04-28 11:02:56,088 - C:\web_automation\venv\PO\upload_result_page.py[line:16] - DEBUG: get create file name
-2020-04-28 11:02:59,297 - C:\web_automation\venv\operation\myvaultOperation.py[line:91] - DEBUG: file protect and upload success
-2020-04-28 11:02:59,816 - C:\web_automation\venv\PO\file_menu_page.py[line:19] - DEBUG: click file menu
-2020-04-28 11:03:00,187 - C:\web_automation\venv\PO\file_menu_page.py[line:19] - DEBUG: click file menu
-2020-04-28 11:03:00,886 - C:\web_automation\venv\PO\file_menu_page.py[line:28] - DEBUG: click view file info icon
-2020-04-28 11:03:02,257 - C:\web_automation\venv\operation\myvaultOperation.py[line:78] - DEBUG: ---------- test end ----------
-2020-04-28 11:03:04,851 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:57] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:03:04,851 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:59] - DEBUG: <----------------------------------------------test end------------------------------------------------->
-2020-04-28 11:03:04,851 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:61] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:03:04,851 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:62] - DEBUG: 
-
-2020-04-28 11:03:04,851 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:63] - DEBUG: 
-
-2020-04-28 11:03:04,851 - C:\skydrm UI automation\venv\testCase\test_myvault_share_file.py[line:64] - DEBUG: 
-
-2020-04-28 11:03:12,280 - C:\skydrm UI automation\venv\testCase\test_search.py[line:17] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:03:12,280 - C:\skydrm UI automation\venv\testCase\test_search.py[line:18] - DEBUG: <----------------------------------------------test search file----------------------------------------->
-2020-04-28 11:03:12,280 - C:\skydrm UI automation\venv\testCase\test_search.py[line:19] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:03:12,287 - C:\web_automation\venv\operation\searchOperation.py[line:22] - DEBUG: ---------- test search file in workspace ----------
-2020-04-28 11:03:12,287 - C:\web_automation\venv\operation\loginOperation.py[line:20] - DEBUG: user start login
-2020-04-28 11:03:12,288 - C:\web_automation\venv\operation\loginOperation.py[line:22] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
-2020-04-28 11:03:16,843 - C:\web_automation\venv\operation\loginOperation.py[line:57] - DEBUG: user login success
-2020-04-28 11:03:17,348 - C:\web_automation\venv\PO\homePage.py[line:28] - DEBUG: ------welcome to worksapce------
-2020-04-28 11:03:22,505 - C:\web_automation\venv\operation\searchOperation.py[line:30] - DEBUG: ---------- test end ----------
-2020-04-28 11:03:26,924 - C:\skydrm UI automation\venv\testCase\test_search.py[line:45] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:03:26,924 - C:\skydrm UI automation\venv\testCase\test_search.py[line:46] - DEBUG: <----------------------------------------------test end------------------------------------------------->
-2020-04-28 11:03:26,924 - C:\skydrm UI automation\venv\testCase\test_search.py[line:47] - DEBUG: <------------------------------------------------------------------------------------------------------->
-2020-04-28 11:03:26,924 - C:\skydrm UI automation\venv\testCase\test_search.py[line:48] - DEBUG: 
-
-2020-04-28 11:03:26,924 - C:\skydrm UI automation\venv\testCase\test_search.py[line:49] - DEBUG: 
-
-2020-04-28 11:03:26,924 - C:\skydrm UI automation\venv\testCase\test_search.py[line:50] - DEBUG: 
+2020-07-02 16:14:35,461 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:14:35,470 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:14:35,471 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:14:35,517 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:14:35,518 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:14:35,518 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
+2020-07-02 16:14:47,792 - C:\skydrm UI automation\venv\PO\BaseAction.py[line:45] - DEBUG: no find label welcome
+2020-07-02 16:14:47,792 - C:\skydrm UI automation\venv\PO\BaseAction.py[line:46] - DEBUG: Message: 
+
+2020-07-02 16:14:47,792 - C:\skydrm UI automation\venv\PO\homePage.py[line:67] - DEBUG: local variable 'elem' referenced before assignment
+2020-07-02 16:14:47,793 - C:\skydrm UI automation\venv\utility\Screen.py[line:15] - DEBUG: screen path is: ../testCase/scrren/error screen1593677687.7921908.png
+2020-07-02 16:14:48,363 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:70] - DEBUG: normal account login fail
+2020-07-02 16:14:48,364 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:71] - DEBUG: 
+2020-07-02 16:14:48,364 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:25] - DEBUG: normal account login fail
+2020-07-02 16:14:48,365 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:26] - DEBUG: 
+2020-07-02 16:14:48,365 - C:/skydrm UI automation/venv/testCase/test_login.py[line:54] - DEBUG: 
+2020-07-02 16:14:48,365 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:14:48,365 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:14:48,366 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:14:48,366 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:14:48,367 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:14:48,367 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:15:00,799 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:00,799 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:15:00,799 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:00,872 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:15:00,872 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:15:00,873 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
+2020-07-02 16:15:03,348 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:62] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
+2020-07-02 16:15:03,349 - C:\skydrm UI automation\venv\utility\Screen.py[line:15] - DEBUG: screen path is: ../testCase/scrren/error screen1593677703.3492818.png
+2020-07-02 16:15:04,101 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:67] - DEBUG: login page refresh fail
+2020-07-02 16:15:04,102 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:70] - DEBUG: normal account login fail
+2020-07-02 16:15:04,102 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:71] - DEBUG: 
+2020-07-02 16:15:04,102 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:25] - DEBUG: normal account login fail
+2020-07-02 16:15:04,102 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:26] - DEBUG: 
+2020-07-02 16:15:04,102 - C:/skydrm UI automation/venv/testCase/test_login.py[line:54] - DEBUG: 
+2020-07-02 16:15:04,102 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:04,102 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:15:04,103 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:04,103 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:15:04,103 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:15:04,103 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:15:20,159 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:20,159 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:15:20,160 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:20,231 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:15:20,231 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:15:20,232 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username: starry2.feng@nextlabs.com password: 123blue!
+2020-07-02 16:15:22,929 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:62] - DEBUG: login prompt msg is: The account does not exist.
+2020-07-02 16:15:22,930 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:65] - DEBUG: user login success
+2020-07-02 16:15:22,930 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:22,930 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:15:22,930 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:22,931 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:15:22,931 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:15:22,931 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:15:36,277 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:36,279 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:15:36,280 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:36,281 - C:/skydrm UI automation/venv/testCase/test_login.py[line:49] - DEBUG: skip this case
+2020-07-02 16:15:36,281 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:36,282 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:15:36,282 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:36,283 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:15:36,283 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:15:36,284 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:15:47,578 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:47,578 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:15:47,579 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:47,631 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:15:47,631 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:15:47,631 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username:  password: 124blue!
+2020-07-02 16:15:49,382 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:62] - DEBUG: login prompt msg is: Please enter the Email Address.
+2020-07-02 16:15:49,383 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:65] - DEBUG: user login success
+2020-07-02 16:15:49,383 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:49,383 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:15:49,383 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:15:49,384 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:15:49,384 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:15:49,384 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
 

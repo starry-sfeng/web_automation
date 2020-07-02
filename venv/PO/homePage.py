@@ -6,7 +6,9 @@ from utility import Screen
 
 class home(BaseAction.Base):
 
-    def __init__(self):
+    def __init__(self, web_driver, log):
+        self.driver = web_driver
+        self.log = log
         self.screen = Screen.screen(self.driver,self.log)
 
     myVault_xpath= (By.XPATH,"//div[@id='myvault-btn']/div/div[2]/button")
@@ -22,6 +24,7 @@ class home(BaseAction.Base):
             self.log.debug("------welcome to myvault------")
             elem = self.find_Element(*self.myVault_xpath)
             self.click(elem)
+
         except Exception as e:
             # self.getScreentHot("error screen")
             self.screen.getScreentHot("error screen")

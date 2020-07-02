@@ -4,7 +4,9 @@ from PO import BaseAction
 from selenium.webdriver.common.by import By
 from utility import Screen
 class upload_file(BaseAction.Base):
-    def __init__(self):
+    def __init__(self, web_driver, log):
+        self.driver = web_driver
+        self.log = log
         self.screen = Screen.screen(self.driver,self.log)
     #file_rights_css = ['css', 'div[class=toggle-directive]']
     # file rights button
@@ -21,10 +23,10 @@ class upload_file(BaseAction.Base):
         try:
             self.log.debug("give file print right")
             if is_myvault:
-                elem = self.findElement2(self.myvault_file_rights_css, 0)
+                elem = self.implicit_wait(self.myvault_file_rights_css, 10,0)
                 self.click(elem)
             else:
-                elem = self.findElement2(self.file_rights_css, 0)
+                elem = self.implicit_wait(self.file_rights_css,10, 0)
                 self.click(elem)
 
         except Exception as e:
@@ -38,10 +40,10 @@ class upload_file(BaseAction.Base):
         try:
             self.log.debug("give file reshare right")
             if is_myvault:
-                elem = self.findElement2(self.myvault_file_rights_css, 1)
+                elem = self.implicit_wait(self.myvault_file_rights_css, 10,1)
                 self.click(elem)
             else:
-                elem = self.findElement2(self.file_rights_css, 1)
+                elem = self.implicit_wait(self.file_rights_css,10, 1)
                 self.click(elem)
 
         except Exception as e:
@@ -54,10 +56,10 @@ class upload_file(BaseAction.Base):
         try:
             self.log.debug("give file save as right")
             if is_myvault:
-                elem = self.findElement2(self.myvault_file_rights_css, 2)
+                elem = self.implicit_wait(self.myvault_file_rights_css, 10,2)
                 self.click(elem)
             else:
-                elem = self.findElement2(self.file_rights_css, 2)
+                elem = self.implicit_wait(self.file_rights_css,10, 2)
                 self.click(elem)
 
         except Exception as e:
@@ -70,10 +72,10 @@ class upload_file(BaseAction.Base):
         try:
             self.log.debug("give file edit right")
             if is_myvault:
-                elem = self.findElement2(self.myvault_file_rights_css, 3)
+                elem = self.implicit_wait(self.myvault_file_rights_css, 10,3)
                 self.click(elem)
             else:
-                elem = self.findElement2(self.file_rights_css, 3)
+                elem = self.implicit_wait(self.file_rights_css,10, 3)
                 self.click(elem)
 
         except Exception as e:

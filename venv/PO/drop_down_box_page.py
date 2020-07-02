@@ -5,7 +5,9 @@ from time import sleep
 from selenium.webdriver.common.by import By
 from utility import Screen
 class drop_down_box(BaseAction.Base):
-    def __init__(self):
+    def __init__(self, web_driver, log):
+        self.driver = web_driver
+        self.log = log
         self.screen = Screen.screen(self.driver,self.log)
     drop_down_css = ["css","select[class='ng-pristine ng-untouched ng-valid']"]
     Last_Modified = "//option[@label = 'Last Modified']"

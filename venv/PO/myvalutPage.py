@@ -7,13 +7,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 from utility import Screen
 class myvalut(BaseAction.Base):
-    def __init__(self):
+    def __init__(self, web_driver, log):
+        self.driver = web_driver
+        self.log = log
         self.screen = Screen.screen(self.driver,self.log)
     myvault_class_name = (By.CLASS_NAME,"menu-label ng-binding color-green")
     driver_css = (By.CSS_SELECTOR,"a[class='cc-pc-menu-item'][data-ng-click*='0']")
     all_files_xpath = (By.XPATH,"//div[@id='repo-list-menu-id']/uib-accordion/div")
     shared_files_xapth = (By.XPATH,"//div[@id='repo-list-menu-id']/div[1]")
     share_css = (By.CSS_SELECTOR,"a[data-ng-click='openShareWidget()']")
+    protect_css = (By.CSS_SELECTOR,"a[data-ng-click='openProtectWidget()']")
 
 
     def click_myvault_button(self):
@@ -56,6 +59,16 @@ class myvalut(BaseAction.Base):
     def click_share_button(self):
         try:
             elem = self.find_Element(*self.share_css)
+            self.click(elem)
+
+        except Exception as e:
+            # self.getScreentHot("error screen")
+            self.screen.getScreentHot("error screen")
+            self.log.debug(e)
+
+    def click_protect_button(self):
+        try:
+            elem = self.find_Element(*self.protect_css)
             self.click(elem)
 
         except Exception as e:

@@ -1,11 +1,7 @@
 # coding=utf-8
 __author__ = "Starry_feng"
-from common import launch_webdriver
-from selenium import webdriver
-import time
+
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import os
 from utility import Screen
 class Base(object):
 
@@ -50,27 +46,27 @@ class Base(object):
             self.log.debug(e)
         return elem
 
-    def findElement2(self, element,index):
-        try:
-            type = element[0].lower()
-            value = element[1]
+    # def findElement2(self, element,index):
+    #     try:
+    #         type = element[0].lower()
+    #         value = element[1]
+    #
+    #         if type == "css":
+    #             elem = self.driver.find_elements_by_css_selector(value).pop(index)
+    #
+    #         else:
+    #             raise NameError (" type is error")
+    #             assert False
+    #     except Exception as e:
+    #         print("id  %s has no find, please chece it" % (id))
+    #         self.log.debug(e)
+    #     return elem
 
-            if type == "css":
-                elem = self.driver.find_elements_by_css_selector(value).pop(index)
+    def css_elements(self,css):
 
-            else:
-                raise NameError (" type is error")
-                assert False
-        except Exception as e:
-            print("id  %s has no find, please chece it" % (id))
-            self.log.debug(e)
-        return elem
-
-    def elements_number(self,element):
-
-        elem = self.driver.find_elements_by_css_selector(element)
-        print("elements number is: ",len(elem))
-        return len(elem)
+        elems = self.driver.find_elements_by_css_selector(css)
+        print("elements number is: ",len(elems))
+        return elems
 
     def find_Element(self,*loc):
         try:
@@ -88,7 +84,7 @@ class Base(object):
         if operation ==1:
             alert.accept()
         elif operation ==2:
-            alert:dismiss()
+            alert.dismiss()
         elif operation==3:
             return  alert.text()
         else:
@@ -212,6 +208,12 @@ class Base(object):
         except Exception as e:
             self.log.debug(e)
             assert False
+
+    def current_window(self):
+        return self.driver.current_window_handle
+
+    def all_windows(self):
+        return self.driver.window_handles
 
     def checkTitle(self,source_title, target_title):
         if  source_title.lower() == target_title.lower():

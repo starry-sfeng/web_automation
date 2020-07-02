@@ -7,7 +7,9 @@ from info import Logger
 import os
 from utility import Screen
 class ready_file(BaseAction.Base):
-    def __init__(self):
+    def __init__(self, web_driver, log):
+        self.driver = web_driver
+        self.log = log
         self.screen = Screen.screen(self.driver,self.log)
     browers_css = (By.CSS_SELECTOR, "a[ng-model= 'files']")
     proceed_css = (By.CSS_SELECTOR, "button[data-ng-click*=proceed]")

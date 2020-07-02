@@ -1,0 +1,95 @@
+2020-07-02 16:24:01,581 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:01,582 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:24:01,582 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:01,629 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:24:01,629 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:24:01,629 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 123blue!
+2020-07-02 16:24:13,951 - C:\skydrm UI automation\venv\PO\BaseAction.py[line:45] - DEBUG: no find label welcome
+2020-07-02 16:24:13,951 - C:\skydrm UI automation\venv\PO\BaseAction.py[line:46] - DEBUG: Message: 
+
+2020-07-02 16:24:13,951 - C:\skydrm UI automation\venv\PO\homePage.py[line:67] - DEBUG: local variable 'elem' referenced before assignment
+2020-07-02 16:24:13,951 - C:\skydrm UI automation\venv\utility\Screen.py[line:15] - DEBUG: screen path is: ../testCase/scrren/error screen1593678253.9518933.png
+2020-07-02 16:24:14,560 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:70] - DEBUG: normal account login fail
+2020-07-02 16:24:14,560 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:71] - DEBUG: 
+2020-07-02 16:24:14,561 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:25] - DEBUG: normal account login fail
+2020-07-02 16:24:14,561 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:26] - DEBUG: 
+2020-07-02 16:24:14,561 - C:/skydrm UI automation/venv/testCase/test_login.py[line:54] - DEBUG: 
+2020-07-02 16:24:14,561 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:14,561 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:24:14,561 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:14,561 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:24:14,562 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:24:14,562 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:24:27,791 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:27,791 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:24:27,791 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:27,857 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:24:27,857 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:24:27,857 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username: starry.feng@nextlabs.com password: 4i234923
+2020-07-02 16:24:31,350 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:62] - DEBUG: login prompt msg is: You've entered an incorrect username/password.
+2020-07-02 16:24:31,350 - C:\skydrm UI automation\venv\utility\Screen.py[line:15] - DEBUG: screen path is: ../testCase/scrren/error screen1593678271.3502882.png
+2020-07-02 16:24:32,168 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:67] - DEBUG: login page refresh fail
+2020-07-02 16:24:32,168 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:70] - DEBUG: normal account login fail
+2020-07-02 16:24:32,168 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:71] - DEBUG: 
+2020-07-02 16:24:32,168 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:25] - DEBUG: normal account login fail
+2020-07-02 16:24:32,169 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:26] - DEBUG: 
+2020-07-02 16:24:32,169 - C:/skydrm UI automation/venv/testCase/test_login.py[line:54] - DEBUG: 
+2020-07-02 16:24:32,169 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:32,169 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:24:32,169 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:32,169 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:24:32,170 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:24:32,170 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:24:44,809 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:44,809 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:24:44,810 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:44,886 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:24:44,886 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:24:44,888 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username: starry2.feng@nextlabs.com password: 123blue!
+2020-07-02 16:24:49,448 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:62] - DEBUG: login prompt msg is: The account does not exist.
+2020-07-02 16:24:49,449 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:65] - DEBUG: user login success
+2020-07-02 16:24:49,449 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:49,449 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:24:49,450 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:24:49,450 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:24:49,450 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:24:49,450 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:25:00,450 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:00,450 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:25:00,452 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:00,452 - C:/skydrm UI automation/venv/testCase/test_login.py[line:49] - DEBUG: skip this case
+2020-07-02 16:25:00,453 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:00,453 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:25:00,453 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:00,453 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:25:00,454 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:25:00,454 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+
+2020-07-02 16:25:11,994 - C:/skydrm UI automation/venv/testCase/test_login.py[line:28] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:11,995 - C:/skydrm UI automation/venv/testCase/test_login.py[line:30] - DEBUG: <-----------------------------------------------test start---------------------------------------------->
+2020-07-02 16:25:11,995 - C:/skydrm UI automation/venv/testCase/test_login.py[line:32] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:12,042 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:94] - DEBUG: User Status: Logout
+2020-07-02 16:25:12,043 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:17] - DEBUG: user start login
+2020-07-02 16:25:12,044 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:19] - DEBUG: user login info, username:  password: 124blue!
+2020-07-02 16:25:14,133 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:62] - DEBUG: login prompt msg is: Please enter the Email Address.
+2020-07-02 16:25:14,133 - C:\skydrm UI automation\venv\operation\loginOperation.py[line:65] - DEBUG: user login success
+2020-07-02 16:25:14,133 - C:/skydrm UI automation/venv/testCase/test_login.py[line:60] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:14,133 - C:/skydrm UI automation/venv/testCase/test_login.py[line:62] - DEBUG: <---------------------------------------test normal account end----------------------------------------->
+2020-07-02 16:25:14,133 - C:/skydrm UI automation/venv/testCase/test_login.py[line:64] - DEBUG: <------------------------------------------------------------------------------------------------------->
+2020-07-02 16:25:14,133 - C:/skydrm UI automation/venv/testCase/test_login.py[line:65] - DEBUG: 
+
+2020-07-02 16:25:14,134 - C:/skydrm UI automation/venv/testCase/test_login.py[line:66] - DEBUG: 
+
+2020-07-02 16:25:14,134 - C:/skydrm UI automation/venv/testCase/test_login.py[line:67] - DEBUG: 
+

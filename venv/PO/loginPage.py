@@ -4,7 +4,9 @@ from PO import BaseAction
 from selenium.webdriver.common.by import By
 from utility import Screen
 class login(BaseAction.Base):
-    def __init__(self):
+    def __init__(self, web_driver, log):
+        self.driver = web_driver
+        self.log = log
         self.screen = Screen.screen(self.driver,self.log)
 
     user_name_id = (By.ID, "username")

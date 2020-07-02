@@ -1,10 +1,7 @@
 from PO import loginPage
 from time import sleep
-from PO import BaseAction
 from PO import homePage
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from info import Logger
+
 class login_operation(object):
     def __init__(self,web_driver,log):
         self.driver = web_driver

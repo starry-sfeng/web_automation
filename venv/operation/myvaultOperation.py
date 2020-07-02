@@ -1,8 +1,7 @@
 __author__ = "Starry.feng"
-from PO import BaseAction
-from PO import myvalutPage
+from PO import myvalutPage,viewerPage
 from operation import loginOperation
-from info import userInfo,Logger
+from info import userInfo
 from PO import homePage,view_fileInfo_page,file_menu_page,upload_file_page,ready_file_page,upload_result_page,file_list_page
 from time import sleep
 from utility import Screen
@@ -22,6 +21,7 @@ class myvault_operation(object):
         self.ready_file = ready_file_page.ready_file(self.driver,self.log)
         self.upload_result = upload_result_page.upload_result(self.driver,self.log)
         self.file_list = file_list_page.file_list(self.driver,self.log)
+        self.viewer = viewerPage.viewer(self.driver,self.log)
 
     def share_file(self):
         self.user_login.normal_accout_login(self.user_info.user,self.user_info.password,self.user_info.except_result,self.user_info.assertion_keyword)
@@ -63,11 +63,16 @@ class myvault_operation(object):
 
         self.upload_file.click_Upload_share_File_button()
 
-        self.assert_protect()
+        file_name = self.upload_result.get_protect_file_name()
+
+        sleep(0.5)
+        self.upload_result.click_ok_button()
+
+        self.assert_protect(file_name)
         sleep(0.5)
 
-        self.file_menu.click_frist_file_menu(0)
-        self.file_menu.click_frist_file_menu(0)
+        self.file_menu.click_file_menu(0)
+        self.file_menu.click_file_menu(0)
         sleep(0.5)
 
         self.file_menu.click_view_file_info_icon()
@@ -76,19 +81,45 @@ class myvault_operation(object):
 
         # print("end")
         self.log.debug("---------- test end ----------")
-        
-    def assert_protect(self):
-        file_name1 = self.upload_result.get_protect_file_name()
+
+    def protect(self):
+        self.log.debug("---------- test protect file in myspace ----------")
+        self.user_login.normal_accout_login(self.user_info.user, self.user_info.password, self.user_info.except_result,
+                                            self.user_info.assertion_keyword)
+        sleep(0.5)
+        self.home.click_myVault()
+        sleep(0.5)
+        self.myvault.click_protect_button()
+        sleep(0.5)
+        self.ready_file.click_browers_button(r"C:\upload02.exe")
+
+        sleep(2)
+        self.ready_file.click_proceed_button()
+        sleep(1)
+
+        self.upload_file.select_all_rights(True)
+        sleep(0.5)
+        self.upload_file.click_Upload_share_File_button()
+
+        file_name = self.upload_result.get_protect_file_name()
+
         sleep(0.5)
         self.upload_result.click_ok_button()
+        self.assert_protect(file_name)
+        sleep(0.5)
+        current_window = self.file_list.open_myvault_file(file_name)
+        self.viewer.switch_driver(current_window)
+
+    def assert_protect(self,fileName):
+
         sleep(1)
         file_name2 = self.file_list.get_first_fileName_list()
-        if file_name1 == file_name2:
+        if fileName == file_name2:
             # print("file protect and upload success")
             self.log.debug("file protect and upload success")
+
         else:
             # print("file protect fail")
             self.log.debug("file protect fail")
             self.screen.getScreentHot("error screen")
             assert False
-            
